@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-image: url(imgs/back.jpg);
+    background-size: cover;
+    overflow: hidden;
+    height: 630px;    
+}
+
+h1 {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    background-color: #442706;
+}
+
+a:hover {
+    background-color: #D1760D;
+    margin-right: 10px;
+}
+nav {
+    text-align: center;
+    background-color: black;
+    height: 7%;
+    /* border-bottom: 3px solid #D1760D; */
+}
+
+#subscribe {
+    background-color: #d1760d6c;
+    height: 65%;
+    width: 20%;
+    float: right;
+    padding: 20px;
+    margin-top: 80px;
+    margin-right: 80px;
+    border-radius: 15px 0px 15px 0px;
+}
+
+#substitle {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+input, select {
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type='submit'] {
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #442706;
+}
+
+p {
+    text-align: justify;
+}
+
+#sb {
+    font-size: 1.2rem;
+    color: white;
+}
+
+#adm {
+    height: 650px;
+    margin: 20px;
+    float: left;
+}
+
+#description {
+    padding: 20px;
+}
+
+#description h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: sans-serif;
+}
+
+#description P {
+    margin-bottom: 15px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
